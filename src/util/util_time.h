@@ -4,6 +4,7 @@
 #include <cstdint>
 
 #ifdef _WIN32
+#define WINE_NOWINSOCK
 #include <windows.h>
 #endif
 
